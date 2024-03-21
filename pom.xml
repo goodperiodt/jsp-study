@@ -50,6 +50,14 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+        <!-- jstl은 1.2버전이 가장 마지막으로 업데이트된 버전이다. 더 이상의 업데이트는 없을 것..?-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
 
     <build>
